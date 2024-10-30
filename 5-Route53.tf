@@ -1,4 +1,4 @@
-
+// This data block retrieves the Route53 zone for the specified domain.
 data "aws_route53_zone" "main" {
   name         = "awswarriors.com"  ## The domain name you want to look up
   private_zone = false
